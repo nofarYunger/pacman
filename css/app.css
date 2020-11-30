@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: white;
+}
+*{
+  box-sizing: border-box;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.formLine {
+  margin: 10px;
+  padding: 10px;
+  background-color: cornflowerblue;
+}
+
+.popUp {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  text-align: center;
+  display: none;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: rgb(60, 60, 112);
+  color: aliceblue;
+  border-radius: 5%;
+}
+
+.char {
+  height: 25px;
+}
+
+.left {
+  transform: scaleX(-1);
+}
+
+.up {
+  transform: rotate(270deg);
+}
+
+.down {
+  transform: rotate(90deg);
+}
